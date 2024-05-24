@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>N&T Tire</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="js.js"></script>
+</head>
+<body>   
+
+    <section class="announcement">
+        <div class="empty"></div>
+        <div class="switch">
+            <p>Lastikler Hakkında Herşey</p>
+        </div>
+        <div class="lang">
+            <p>Türkçe</p>
+            <img src="images/turkey.png" alt="dil seçiniz">
+        </div>
+    </section>
+
+    <header>
+            <h2>N&T Tire</h2>
+            <nav>
+                <ul>
+                    <li><a href="index.html">AnaSayfa</a></li>
+                    <li><a href="#">Lastik Tipleri ></a>
+                        <div class="dropdown-content">
+                            <nav>
+                                <ul>
+                                    <li><a href="yazlastigi.html">Yaz Lastiği</a></li>
+                                    <li><a href="kislastigi.html">Kış Lastiği</a></li>
+                                    <li><a href="duzlastik.html">Düz Lastik</a></li>             
+                                </ul>
+                            </nav>
+                        </div>
+                    </li>
+                    <li><a href="tirechange.html">Lastik Değişimi</a></li>
+                    <li><a href="jantlar.html">Jantlar</a></li>
+                    <li><a href="#">İletişim</a></li>                
+                </ul>
+            </nav>
+            <img src="images/search.png" alt="search" onclick="search(1)">
+            <div class="searchBar" id="search">
+                <input type="text" id="searchBox" placeholder="Lastik Tipi Arayın...">
+                <img src="images/cross.png" onclick="search(2)">
+            </div>
+    </header>
+
+    
+    <a href='#' class="stt" title="scroll to top"></a>
+
+    <main>
+        <div class="contact">
+            <div class="contact-info">
+                <h2>İletişim Bilgileri</h2>
+                <p><img src="images/telephone.png" alt="Phone Icon" width="20"> Telefon: 216-456-7890</p>
+                <p><img src="images/mail.png" alt="Email Icon" width="20"> Email: info@nulltire.com</p>
+                <p><img src="images/home.png" alt="Address Icon" width="20"> Adres: Huzur Mahallesi, Selma Sokak No: 123, Ümraniye İlçe, İstanbul Şehir</p>
+            </div>
+            <div class="map">
+                <!-- Google Haritalar iframe kodu buraya gelecek -->
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3000.9501943185883!2d28.987600715301507!3d41.068024579297434!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDEyJzI4LjUiTiAyOMKwNTUnMzQuMCJF!5e0!3m2!1str!2str!4v1649193532925!5m2!1str!2str" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h3>N&amp;T Tire</h3>
+                    <ul>
+                        <li><a href="contact.html">Yardım ve Destek</a></li>
+                        <li><a href="contact.html">Kurumsal</a></li>
+                        <li><a href="about.html">About N&amp;T Tire</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>MÜŞTERİ HİZMETLERİ</h3>
+                    <ul>
+                        <li><a href="contact.html">Yardım ve Destek</a></li>
+                        <li><a href="about.html">Kurumsal</a></li>
+                        <li><a href="about.html">About N&amp;T Tire</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>HESABIM</h3>
+                    <ul>
+                        <li><a href="cart.html">Siparişlerim</a></li>
+                        <li><a href="contact.html">Adreslerim</a></li>
+                        <li><a href="index.html">Üyelik Bilgilerim</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <div class="logo1"><h2>N&amp;T Tire</h2></div>
+                    <p> &nbsp;&nbsp;&nbsp; BİZİ TAKİP EDİN</p>
+                    <div class="social-icons1">
+                        <a href="#"><div class="icon1"></div></a>
+                        <a href="#"><div class="icon2"></div></a>
+                        <a href="#"><div class="icon3"></div></a>
+                    </div>
+                </div>
+            </div>
+            <p class="copyright">© 2024 N&amp;T Tire. Tüm hakları saklıdır.</p>
+            <nav class="footer-nav">
+                <ul>
+                    <li><a href="#">Site Haritası</a></li>
+                    <li><a href="#">Gizlilik Politikası</a></li>
+                    <li><a href="#">Kullanım Koşulları</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+  
+</body>
+</html>
